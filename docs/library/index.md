@@ -1,4 +1,4 @@
-#Library
+# Library Overview
 
 1. [Inbox](https://drive.google.com/open?id=1sJ0UojaPeGd3g2dvsch_0TqejBvX6MuS) – Upload your files into this folder
 2. [Saved to be organized](https://drive.google.com/open?id=1shIMqPHpD2CPfeI4Iz6w0tsHVFmas9HW) - Stuff that has been pulled out of the **Inbox** folder, but has not yet gone through the cleanup and organization process. Things will be removed from this folder when they are moved into the **Archive**
