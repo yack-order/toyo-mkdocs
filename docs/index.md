@@ -12,6 +12,6 @@ To make requests for additional resources, report errors in the existing materia
 ---
 
 # Contact The Optimistic Yack Order
-| ![qr_resource_library.png](img/qr_resource_library.png) | ![qr_discord.png](img/qr_discord.png) | ![qr_reddit_moreyoto.png](img/qr_resource_library.png) |
-| :-: | :-: | :-: |
-| [Resource Library](https://yackorder.org) | Discord [udDFx8qsaH](https://discord.gg/udDFx8qsaH) | Reddit [r/moreyoto](https://www.reddit.com/r/moreyoto/) |
+| ![kofi.png](img/kofi.png) | ![qr_resource_library.png](img/qr_resource_library.png) | ![qr_discord.png](img/qr_discord.png) | ![qr_reddit_moreyoto.png](img/qr_resource_library.png) |
+| :-: | :-: | :-: | :-: |
+| [Support TOYO on KoFi}(https://ko-fi.com/theoptimisticyackorder)| [Resource Library](https://yackorder.org) | Discord [udDFx8qsaH](https://discord.gg/udDFx8qsaH) | Reddit [r/moreyoto](https://www.reddit.com/r/moreyoto/) |
