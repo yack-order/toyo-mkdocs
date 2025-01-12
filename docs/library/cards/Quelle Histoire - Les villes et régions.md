@@ -2,6 +2,12 @@
 
 ![card_[eSxfF].png](../../img/cards/card_[eSxfF].png)
 
+**Data Sources**: 
+
+- Playlist:✅
+- Store: ✅
+
+
 ## Store Links
 
 | Geo | Link |

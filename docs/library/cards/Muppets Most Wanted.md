@@ -2,6 +2,12 @@
 
 ![card_[8Hg6Q].png](../../img/cards/card_[8Hg6Q].png)
 
+**Data Sources**: 
+
+- Playlist:✅
+- Store: ✅
+
+
 ## Store Links
 
 | Geo | Link |

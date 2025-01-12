@@ -2,6 +2,12 @@
 
 ![card_[40P3p].png](../../img/cards/card_[40P3p].png)
 
+**Data Sources**: 
+
+- Playlist:✅
+- Store: ✅
+
+
 ## Store Links
 
 | Geo | Link |

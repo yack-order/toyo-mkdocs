@@ -2,6 +2,12 @@
 
 ![card_[ikE3M].png](../../img/cards/card_[ikE3M].png)
 
+**Data Sources**: 
+
+- Playlist:✅
+- Store: ✅
+
+
 ## Store Links
 
 | Geo | Link |

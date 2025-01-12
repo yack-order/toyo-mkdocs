@@ -2,6 +2,12 @@
 
 ![card_[dpu2e].png](../../img/cards/card_[dpu2e].png)
 
+**Data Sources**: 
+
+- Playlist:❌
+- Store: ✅
+
+
 ## Store Links
 
 | Geo | Link |

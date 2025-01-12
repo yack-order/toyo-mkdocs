@@ -2,6 +2,12 @@
 
 ![card_[hVzia].png](../../img/cards/card_[hVzia].png)
 
+**Data Sources**: 
+
+- Playlist:✅
+- Store: ❌
+
+
 ## Store Links
 
 | Geo | Link |
