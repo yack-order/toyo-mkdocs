@@ -23,6 +23,7 @@ All guidance here is intended for informational purposes only. If you find anyth
 | CAN | YARONGTECH | YARONGTECH MIFARE Ultralight EV1 NXP Contactless Blank Plastic NFC Key Card | [CAN$12.43 / 10 pack](https://www.amazon.ca/gp/product/B077RDYJ5W) | November 29, 2024 | |
 | UK | YARONGTECH | YARONGTECH MIFARE Ultralight® NXP Contactless Blank Plastic Key Card | [£29.62/50 pack](https://www.amazon.co.uk/dp/B077RHQ3M2) | November 17, 2024 | |
 | USA | ABC RFID | MIFARE Ultralight EV1 48 Bytes 13.56MHz MF Blank RFID NFC Printable Card | [Starting at $0.30/card](https://www.abcrfid.com/product/13-56mhz-mifare-ultralight-ev1-mf-blank-smart-rfid-card) | December 8, 2024 |
+| UK | Granitecity-2008 | MIFARE Ultralight® NXP EV1 Cards (Pack of 100) | [£33.00](https://www.ebay.co.uk/itm/276341968629) | January 12, 2025 |
 
 **Note:** *Check the correct cards have been sent prior using. Some have reported to be mis-shipped.*
 
