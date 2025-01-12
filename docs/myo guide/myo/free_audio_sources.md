@@ -1,0 +1,13 @@
+# Free Audio Sources
+
+Author: [u/playchime](https://www.reddit.com/u/playchime)
+
+[LibriVox](https://librivox.org/) - A very large database of public domain audiobooks read by volunteers. If you don’t mind non-professional audiobook productions (single narrator, without sounds or music) and are okay with your children reading classic stories (which may not reflect modern sensibilities), this can be an excellent resource! You’ll find things here like Winnie the Pooh, Alice in Wonderland, Heidi, Anne of Green Gables, Doctor DoLittle, The Junglebook, etc. Anything pre-1930s.
+
+[Lit2Go](https://etc.usf.edu/lit2go/) - Lit2Go, another collection of public domain works. I haven’t explored this one much yet, but it seems like it may be a bit more curated than librivox, and also appears to have a focus on poetry as well as stories.  
+
+[MusOpen](https://musopen.org/) - A database of royalty-free/public domain recordings of classical music. Very nice for kids who like that genre, and would probably provide some nice songs for a sleep playlist too if you pick the right composer!  
+
+[Archive.org](https://archive.org) - The infamous Internet Archive! It’s not the easiest site to use, and there’s an awful lot to slog through, but it can be worth a quick search just in case–every now and again you find a gem! Any gems I’ve found are linked below in the Selected Stories section. Please note archive.org does not host only public domain works, and any copyrighted material hosted here is content piracy.
+  
+**Your Public Library System!** - Don’t forget to check if your public library has audiobook CDs you can borrow, or if they have support for Libby! (which allows you to rent audiobooks digitally). CDs are easy to rip the content off of for any computer with a CD drive either using the built-in audio player (Windows Media Player or iTunes), or with additional software like CDBurnerXP, Musicbee, etc. Portable disc drives that plug in via USB can be used for computers that don’t have built-in disc drives (and they’re not very expensive either!). Audio from Libby can be ripped as well, but it’s a little more complex. See notes [on using Libby](using_libby_for_myo.md).
