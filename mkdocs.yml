@@ -1,4 +1,5 @@
 site_name: The Optimistic Yack Order
 theme: 
     name: readthedocs
-    locale: en       
+    locale: en
+    extra_css: stylesheets/extra.css
