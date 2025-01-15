@@ -1,7 +1,5 @@
 # Tools to Acquire Audio
 
-Author: [u/playchime](https://www.reddit.com/u/playchime)
-
 This is only for stuff related to ripping your own audio!
 
 ## Sites

@@ -1,7 +1,5 @@
 # Radio Stations Setup - Using a Computer
 
-Author: [u/playchime](https://www.reddit.com/u/playchime)
-
 We will start by once again going to our [My Yoto website](https://my.yotoplay.com/) in your web browser of choice
 ![rssuac_01.png](../../img/rssuac_01.png)
 

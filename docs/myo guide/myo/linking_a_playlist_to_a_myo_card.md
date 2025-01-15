@@ -1,7 +1,5 @@
 # Linking a Playlist to a MYO Card
 
-Author: [u/playchime](https://www.reddit.com/u/playchime)
-
 Please note linking MYO cards must be done in the app. There is no way around using the app for this. It also requires wifi and bluetooth, or NFC (if you don’t know what NFC is don't worry about it–wifi is just fine!).  
 
 This guide will also assume you have already downloaded the app, and have connected your Yoto to it. It is available on mobile and tablet devices on both iOS and Android, and should be in your app store of choice (iTunes, Google Play, etc). Instructions on linking your Yoto are in the app itself.  

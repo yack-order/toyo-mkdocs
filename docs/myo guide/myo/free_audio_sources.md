@@ -1,7 +1,5 @@
 # Free Audio Sources
 
-Author: [u/playchime](https://www.reddit.com/u/playchime)
-
 [LibriVox](https://librivox.org/) - A very large database of public domain audiobooks read by volunteers. If you don’t mind non-professional audiobook productions (single narrator, without sounds or music) and are okay with your children reading classic stories (which may not reflect modern sensibilities), this can be an excellent resource! You’ll find things here like Winnie the Pooh, Alice in Wonderland, Heidi, Anne of Green Gables, Doctor DoLittle, The Junglebook, etc. Anything pre-1930s.
 
 [Lit2Go](https://etc.usf.edu/lit2go/) - Lit2Go, another collection of public domain works. I haven’t explored this one much yet, but it seems like it may be a bit more curated than librivox, and also appears to have a focus on poetry as well as stories.  

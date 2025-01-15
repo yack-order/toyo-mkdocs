@@ -1,7 +1,5 @@
 # Making a MYO Playlist - Using a Computer
 
-Author: [u/playchime](https://www.reddit.com/u/playchime)
-
 In your web browser of choice, [follow this link to the My Yoto website](https://my.yotoplay.com/my-cards). If you’re not currently logged in, you will need to do that first.  
 ![mamp_01.png](../../img/mamp_01.png)  
 

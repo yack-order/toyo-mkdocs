@@ -1,7 +1,5 @@
 # Making a MYO Playlist
 
-Author: [u/playchime](https://www.reddit.com/u/playchime)
-
 Yoto makes it very easy to make MYO playlists, and you can make them either in your web browser of choice on your computer or mobile/tablet, or using the app on mobile/tablet. As this whole document covers getting files using a computer, I will cover using a computer first.
 
 *Please note this guide assumes you have already signed up for a Yoto account.*

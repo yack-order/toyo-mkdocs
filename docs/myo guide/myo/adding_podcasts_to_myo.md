@@ -1,7 +1,5 @@
 # Adding Podcasts to MYO
 
-Author: [u/playchime](https://www.reddit.com/u/playchime)
-
 Adding podcasts to cards is a bit unique, in that it has its own separate tab in the [My Yoto website](https://my.yotoplay.com/), and can’t just be added from the usual playlist creator. They also can’t be added in the app–going to add one in the app will just open My Yoto space in your web browser, so for this guide, phones/tablets and PCs can follow the same tutorial. Adding podcasts to MYO through the podcast interface in this way rather than by downloading the episodes allows Yoto to automatically refresh the card when new episodes come out, which is very handy.  
 
 We’ll start by covering how to get to the podcasts section of My Yoto space on mobile, then computers, and then the instructions will be shared after that point.  

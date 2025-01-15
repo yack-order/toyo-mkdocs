@@ -1,7 +1,5 @@
 # Using YouTube for MYO
 
-Author: [u/playchime](https://www.reddit.com/u/playchime)
-
 [MediaHuman Youtube to MP3](https://www.mediahuman.com/youtube-to-mp3/32/)
 
 This is in my opinion the best option for using YouTube as a MYO source, since it can do whole playlists at once and run in the background. However, it will only work on computers.  

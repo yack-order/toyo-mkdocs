@@ -1,7 +1,5 @@
 # Using Spotify for MYO
 
-Author: [u/playchime](https://www.reddit.com/u/playchime)
-
 Spotify is a great source for MYO audio, as the audio should be in higher quality than YouTube, and doesn’t require being converted from video format. When it comes to downloading audio from Spotify, the best option I have found so far is to use Lucida.to (which also supports several other music streaming websites). 
 
 ## Lucida

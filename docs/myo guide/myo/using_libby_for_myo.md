@@ -1,7 +1,5 @@
 # Using Libby for MYO
 
-Author: [u/playchime](https://www.reddit.com/u/playchime)
-
 The solution is a little clumsy at the moment, and will still require a basic level of comfort with editing audio for longer stories. I’m still testing this out, so I’d welcome any feedback you have!  
 
 Anyway, I’ve only seen people suggest ripping content from Libby by recording it while it plays. There’s nothing specifically wrong with this option–recording through an internal source shouldn’t really create any quality loss to my knowledge–but also man that’s time consuming haha. This method isn’t exactly un-time-consuming, since editing will still be required for longer stories, but it should offer significant improvement. 

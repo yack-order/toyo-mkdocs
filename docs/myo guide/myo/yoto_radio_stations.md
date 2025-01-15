@@ -1,7 +1,5 @@
 # Yoto Radio Stations
 
-Author: [u/playchime](https://www.reddit.com/u/playchime)
-
 ## Databases
 *This is a WIP! I may come back and fill in more stations, but with the databases (linked below) other people have already made, it's not a high priority right now.  I would recommend that you scan the stations yourself as well before adding them to your children’s libraries!*
 

@@ -1,7 +1,5 @@
 # Making a MYO Playlist -  Using the Yoto App
 
-Author: [u/playchime](https://www.reddit.com/u/playchime)
-
 Using the app is a bit finickier than the computer and is missing several options, so I don’t recommend it. If you’re restricted to mobile, it would be best to still use the in-browser version of My Yoto if possible (you should theoretically be able to do this and follow along with [the computer tutorial](playlist_computer.md), but I still need to test this). But if for some reason you must use the app, or it’s just more comfortable for you, I’ve made a tutorial anyhow.  
 
 Please note this guide assumes you have already signed up for a Yoto account. 

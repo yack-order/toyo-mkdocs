@@ -1,7 +1,5 @@
 # Using Video Download Helper for MYO
 
-Author: [u/playchime](https://www.reddit.com/u/playchime)
-
 [Video Download Helper](https://www.downloadhelper.net/) is a browser extension, so this cannot be used on mobile. Also, despite the name, this can be used to rip both video and audio. You first must download and install the version appropriate for the browser you want to use (the website should detect that for you automatically though). When it’s installed, you should have an icon of three primary-coloured dots on the toolbar of your browser that will allow you to activate the extension on a webpage. It looks like this:
 ![uvdhfm_01.png](../../img/uvdhfm_01.png)   
 

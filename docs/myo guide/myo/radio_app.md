@@ -1,7 +1,5 @@
 # Radio Stations Setup - Using the App
 
-Author: [u/playchime](https://www.reddit.com/u/playchime)
-
 We’ll start by opening the app and navigating to the Playlists section by using the row of coloured tabs, just like we do when making a playlist of MP3s:
 ![rssuaa_01.png](../../img/rssuaa_01.png)
 
