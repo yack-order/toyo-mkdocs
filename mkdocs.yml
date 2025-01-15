@@ -1,5 +1,37 @@
 site_name: The Optimistic Yack Order
+site_description: An loose collective of information about the Yoto Player and other related technologies.
+site_url: https://yackorder.org
 theme: 
-    name: readthedocs
+    name: material # alts: readthedocs, dracula
     locale: en
     extra_css: stylesheets/extra.css
+plugins:
+    - search
+    - git-revision-date-localized #https://github.com/timvink/mkdocs-git-revision-date-localized-plugin # Only works with Material theme
+    #- rss: #https://github.com/Guts/mkdocs-rss-plugin
+    #    date_from_meta:
+    #        as_update: "git"
+    #        default_timezone: America/New_York
+    #    use_git: true
+    #- lightgallery: https://github.com/g-provost/lightgallery-markdown
+    #- pub-debugger #https://github.com/mkdocs-publisher/mkdocs-publisher
+    #- pub-blog
+    #- pub-obsidian
+    #- pub-social
+    #- pub-meta
+    #- pub-minifier
+    - encryptcontent: #https://github.com/unverbuggt/mkdocs-encryptcontent-plugin
+        password_inventory:
+            confidential:
+                - !ENV MKDOCS_TOYO_PASSWORD
+            secret:
+                - !ENV MKDOCS_DEV_PASSWORD
+        password_button: true
+        password_button_text: 'Unlock'
+        remember_keys: true
+        search_index: 'dynamically'
+        #webcrypto: true
+        esm: true
+
+
+#notes - https://github.com/mkdocs/catalog?tab=readme-ov-file
