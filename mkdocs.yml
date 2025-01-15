@@ -1,12 +1,36 @@
 site_name: The Optimistic Yack Order
 site_description: An loose collective of information about the Yoto Player and other related technologies.
 site_url: https://yackorder.org
+docs_dir: 'docs'
+site_dir: 'site'
+not_in_nav: | 
+    /docs/library/cards/
+validation: # This prevents info/warnings from a bunch of card descriptions that point to yoto store urls
+        absolute_links: ignore
+        unrecognized_links: ignore 
 theme: 
-    name: material # alts: readthedocs, dracula
+    name: readthedocs # alts: material, dracula
     locale: en
     extra_css: stylesheets/extra.css
+    extra:
+        analytics: 
+            provider: google
+            property: G-FK91NCFKQY
+            feedback:
+            title: Was this page helpful?
+            ratings:
+                - icon: material/emoticon-happy-outline
+                - name: This page was helpful
+                - data: 1
+                - note: Thanks for your feedback!
+                - icon: material/thumb-down-outline
+                - name: This page could be improved
+                - data: 0
+                - note: Thanks for your feedback! Help us improve this page by using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
 plugins:
-    - search
+    - search:
+        prebuild_index: true
+        indexing: 'full'
     - git-revision-date-localized #https://github.com/timvink/mkdocs-git-revision-date-localized-plugin # Only works with Material theme
     #- rss: #https://github.com/Guts/mkdocs-rss-plugin
     #    date_from_meta:
@@ -29,7 +53,7 @@ plugins:
         password_button: true
         password_button_text: 'Unlock'
         remember_keys: true
-        search_index: 'dynamically'
+        #search_index: 'dynamically'
         #webcrypto: true
         esm: true
 
