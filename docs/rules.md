@@ -6,7 +6,7 @@ TOYO was created as a place where for content that is specifically related to an
 
 ## Archive Membership
 
-Access to files backed up within The Archive as well as the related portions of this Discord Server are limited to TOYO Members. Requirements and instructions for applying for TOYO Membership can be found [here](guides/applying_to_the_archive.md). TOYO Moderators retain the right to revoke membership at any time for any reason.
+Access to files backed up within The Archive as well as the related portions of this Discord Server are limited to TOYO Members. Requirements and instructions for applying for TOYO Membership can be found [here](/guides/archive/applying_to_the_archive.md). TOYO Moderators retain the right to revoke membership at any time for any reason.
 
 ## Audio Content Submissions
 

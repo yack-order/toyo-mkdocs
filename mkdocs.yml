@@ -6,7 +6,7 @@ site_dir: 'site'
 not_in_nav: | 
     /docs/library/cards/
 validation: # This prevents info/warnings from a bunch of card descriptions that point to yoto store urls
-        absolute_links: ignore
+        absolute_links: relative_to_docs # this means that all links are relative to the `docs_dir` so they don't need to get the /../../img/file.png correct, just do /img/file.png
         unrecognized_links: ignore 
 theme: 
     name: readthedocs # alts: material, dracula
@@ -31,7 +31,12 @@ plugins:
     - search:
         prebuild_index: true
         indexing: 'full'
-    - git-revision-date-localized #https://github.com/timvink/mkdocs-git-revision-date-localized-plugin # Only works with Material theme
+    - git-revision-date-localized: #https://github.com/timvink/mkdocs-git-revision-date-localized-plugin # Only works with Material theme
+        timezone: America/New_York
+        locale: en
+        fallback_to_build_date: true
+        enabled: true
+        strict: false
     #- rss: #https://github.com/Guts/mkdocs-rss-plugin
     #    date_from_meta:
     #        as_update: "git"

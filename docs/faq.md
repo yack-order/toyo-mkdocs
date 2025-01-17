@@ -6,9 +6,9 @@
 1.  Is this legal?
 	- We are not authorized to give legal advice.
 3.  When will the Archive be available?
-	- The Archive is currently [accepting submission of content](guides/using_the_card_collector_tool.md) to backup as well as [applications to access](guides/applying_to_the_archive.md) the backups.
+	- The Archive is currently [accepting submission of content](/guides/archive/using_the_card_collector_tool.md) to backup as well as [applications to access](/guides/archive/applying_to_the_archive.md) the backups.
 4.  How can I access the Archive?
-	- Please see  [Applying to the Archive](guides/applying_to_the_archive.md) for instructions.
+	- Please see  [Applying to the Archive](/guides/archive/applying_to_the_archive.md) for instructions.
 5.  What can be found in the archive?
 	- The Archive contains only backups of Official Yoto Cards, which is complete with chapterized audio, all icons, and cover art. To view the full content of the Archive, see the Index.
 6.  How come I can only archive Official Yoto Content?
@@ -38,7 +38,7 @@
 ## Hardware
 
 1.  Can I purchase NFC cards from sources other than Yoto?
-	- Yes! See our tutorials on how to [source these cards](guides/choosing_a_3rd_party_nfc_card.md), as well as [using them](guides/using_3rd_party_nfc_cards.md).
+	- Yes! See our tutorials on how to [source these cards](/guides/choosing_a_3rd_party_nfc_card.md), as well as [using them](/guides/using_3rd_party_nfc_cards.md).
 2.  Are Yoto Players smart home compatible?
 	- Yes! There is a Yoto Player integration available for [Home Assistant](https://www.home-assistant.io/). Tutorials on adding your Yoto Players are coming soon!
 

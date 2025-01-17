@@ -1,7 +1,7 @@
 
 # October 31, 2024 Letter
 
-![header_oct31.png](../img/header_oct31.png)
+![header_oct31.png](/img/header_oct31.png)
 
 Hi, Thanks for showing your interest in the content library. The community interest and response continues to be overwhelmingly positive. Thank you for that! Over the past few months a small group of dedicated folks have been looking at what is out there and trying to come up with a strategy for how we can collect, catalog, and share it.
 

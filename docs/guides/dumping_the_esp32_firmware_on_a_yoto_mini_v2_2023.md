@@ -2,15 +2,15 @@
 
 1.  Follow the [Battery Replacement guide](https://us.yotoplay.com/mini-battery-replacement-kit-how-to-guide) from Yoto (steps 1-8)
 2.  Pop off the two control knobs and remove the two 10mm nuts  
-![dtefoaym2_01.jpg](../img/dtefoaym2_01.jpg)
+![dtefoaym2_01.jpg](/img/dtefoaym2_01.jpg)
 3.  Remove the 3 screws holding the board to the case  
-![dtefoaym2.jpg](../img/dtefoaym2_02.jpg)
+![dtefoaym2.jpg](/img/dtefoaym2_02.jpg)
 4.  Optional - After removing, flip the board and remove the headphone port cover (2 screws) 
-![dtefoaym2_03.jpg](../img/dtefoaym2_03.jpg)
+![dtefoaym2_03.jpg](/img/dtefoaym2_03.jpg)
 
 5.  Solder a 2mm header/connector (e.g. JST) to the pins and connect them to your serial device as follows  
-![dtefoaym2_04.jpg](../img/dtefoaym2_04.jpg)
-![dtefoaym2_05.jpg](../img/dtefoaym2_05.jpg) 
+![dtefoaym2_04.jpg](/img/dtefoaym2_04.jpg)
+![dtefoaym2_05.jpg](/img/dtefoaym2_05.jpg) 
 
 If using a raspberry pi, the following mapping should be used
 
