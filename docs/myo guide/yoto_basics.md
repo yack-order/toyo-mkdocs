@@ -1,5 +1,7 @@
 # Yoto Basics
 
+Author: [u/playchime](https://www.reddit.com/u/playchime) 
+
 ## Things You Should Know
 
 Free MYO Card + Instructions:
