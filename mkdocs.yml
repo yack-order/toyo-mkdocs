@@ -8,10 +8,12 @@ not_in_nav: |
 validation: # This prevents info/warnings from a bunch of card descriptions that point to yoto store urls
         absolute_links: relative_to_docs # this means that all links are relative to the `docs_dir` so they don't need to get the /../../img/file.png correct, just do /img/file.png
         unrecognized_links: ignore 
+extra_css: 
+    - stylesheets/extra.css
 theme: 
     name: readthedocs # alts: material, dracula
     locale: en
-    extra_css: stylesheets/extra.css
+    
     custom_dir: docs/custom_theme/
     extra:
         analytics: 
