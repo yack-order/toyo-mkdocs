@@ -9,7 +9,6 @@
 
 ## Content
 
--   [Google Drive](https://docs.google.com/document/u/2/d/e/2PACX-1vS-ScXwWdWK6SHuGM_d5Re5LgK_WiQK9KeYYyGJSGjWGTvE36vTvX49FiLDYypYyDGJ6psLQOCzzwsA/pub)  
 -   [tg/Audio Drive](https://t.me/+3QWr53jjWqJkY2Fh)
 -   [spotify downloader](https://spotifydown.com/)
 -   [spotify album downloader](https://spotify-downloader.com/)
