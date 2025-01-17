@@ -1,11 +1,12 @@
 # Archiver
 
-Multiple tools exist for archiving your content from personal and professional playlists. The primary tool being developed and supported is [Yoto Json Extractor](https://github.com/afsenovilla/YOTO-json-extractor/tree/main). This is a program written in python for Windows, but probably should work for other OSes. 
+TOYO has developed multiple tools for indexing and archiving data about Yoto cards. Some of these tools have been open sourced, some have not been published yet. 
 
 # Submission Portal
 
-Choose how you want to contribute.
+[Wanted List](https://docs.google.com/spreadsheets/d/e/2PACX-1vT34jkCwXpYbBh40GOXAbP6C0RAGt7sI5GxPzOGHG4h7EN3V_fBLWixIpuM4yRq1_Pi6CYXjmXi2NDN/pubhtml) - A spreadsheet where you can find the items we are tracking which have not been archived.
+[Link Collector](https://forms.gle/evmKzarnhkK7efYq6) - A survey form to capture card playlist links.
 
-- [Story Mode](story_mode.md)
-- [DIY Mode](diy_mode.md)
-- [Hard Mode](hard_mode.md)
+# Submission Counts
+
+![submission_stats](https://docs.google.com/spreadsheets/d/e/2PACX-1vTZPAnp7r88tYDWdEN6rOtGRe-Dtwhzxv1psFqmpZVOlXioCUQVgk-s-nBU7LPFXmifoHP8iV7_JmYH/pubchart?oid=74447646&format=image)
