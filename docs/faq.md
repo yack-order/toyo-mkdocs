@@ -13,6 +13,11 @@
 	- The Archive contains only backups of Official Yoto Cards, which is complete with chapterized audio, all icons, and cover art. To view the full content of the Archive, see the Index.
 6.  How come I can only archive Official Yoto Content?
 	- The goal of this project is to only have high quality content specifically for the Yoto ecosystem. While there is significantly more “generic” audio content available, that is currently out of scope of the Archive.We want to offer an experience curated to the Yoto user, with the ability to access a full backup of their purchased content.
+7. What is to stop you from taking the NFC codes I share in the "application" and saying "thanks for the info but not giving you access - sorry!" 
+	- Nothing. You don't know this team running this project. You have no reason to trust them beyond seeing that other people have done so. So I can tell you I'm a nice person and I promise not to do that, but what is that really worth to you?
+8. Can the Yoto URLs link back to my account and is there a way that this project accessing the link can lead back to my account being blocked?
+	- There is no way for this group to take that URL and gain any amount of access to your account. The one exception is MYO cards.
+	- MYO cards: Your email address is attached to an MYO card when you share a playlist. Remember that warning that pops up in the app when you create the share link? that action triggers a permanent change to the MYO playlist and it attaches your email address.  We know this, and are therefore EXTRA careful about NOT sharing (1) these links and (2) the personal IDs thare are tied into the MYO playlists. One of the first things we did when writing tools was to write a "scrub_personal_data" function to delete this info from the cached data so that its not even stored for processing later. Its not required so we don't keep it in the data cache. We check the email address only to determine "is this from YOTO, or a user" and then "if its a user, make sure we give the credits/points to the author of the playlist and not the uploader"
 
 ## General Yoto Questions
 
