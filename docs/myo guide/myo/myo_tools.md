@@ -1,5 +1,7 @@
 # MYO Tools
 
+Author: [u/playchime](https://www.reddit.com/u/playchime)
+
 *These are tools for making MYO that are not related to acquiring audio.*
 
 [https://www.yotoicons.com/](https://www.yotoicons.com/) - A database of Yoto icons submitted by other Yoto users! Excellent if you need character-specific icons, which is not something offered in Yoto’s default icon selection.
