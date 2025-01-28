@@ -14,7 +14,7 @@ theme:
     name: readthedocs # alts: material, dracula
     locale: en
     
-    custom_dir: docs/custom_theme/
+    custom_dir: docs/custom_theme
     extra:
         analytics: 
             provider: google

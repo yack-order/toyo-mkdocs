@@ -1,7 +1,14 @@
 {% extends "base.html" %}
 
 {% block extrahead %}
-	{{ super() }} 
-	
-	<script defer src="https://cloud.umami.is/script.js" data-website-id="7768ac58-8a91-473f-bb2f-62fa2e5fd9b3"></script>
+  {% set title = config.site_name %}
+  {% if page and page.meta and page.meta.title %}
+    {% set title = title ~ " - " ~ page.meta.title %}
+  {% elif page and page.title and not page.is_homepage %}
+    {% set title = title ~ " - " ~ page.title %}
+  {% endif %}
+
+  <!-- Umami analytics, https://squidfunk.github.io/mkdocs-material/customization/#overriding-blocks -->
+<script async src="https://umami.michi.fyi/script.js" data-website-id="7768ac58-8a91-473f-bb2f-62fa2e5fd9b3"></script>
+ 
 {% endblock %}
