@@ -18,6 +18,24 @@
 8. Can the Yoto URLs link back to my account and is there a way that this project accessing the link can lead back to my account being blocked?
 	- There is no way for this group to take that URL and gain any amount of access to your account. The one exception is MYO cards.
 	- MYO cards: Your email address is attached to an MYO card when you share a playlist. Remember that warning that pops up in the app when you create the share link? that action triggers a permanent change to the MYO playlist and it attaches your email address.  We know this, and are therefore EXTRA careful about NOT sharing (1) these links and (2) the personal IDs thare are tied into the MYO playlists. One of the first things we did when writing tools was to write a "scrub_personal_data" function to delete this info from the cached data so that its not even stored for processing later. Its not required so we don't keep it in the data cache. We check the email address only to determine "is this from YOTO, or a user" and then "if its a user, make sure we give the credits/points to the author of the playlist and not the uploader"
+	
+## Purchasing and Media (Format)
+
+1. Can I Buy from any Yoto store (geo)? 
+	- Yes! You can buy digital cards and/or physical cards from different Yoto geos. **Make sure to use the same email for each geo so the cards show up in your library on the app!** See other FAQs, details, and warnings about purchasing from other Yoto geographical locations. 
+	- **Warning:** If you use a hotel or random address, the cards will show up in your library but you **will not receive** the physical cards and this puts you **at risk of losing those cards** should someone find them and scan them into their own app, or return to Yoto, etc. **Proceed at your own risk.**
+2. Purchasing + Shipping Digital Cards
+	- When checking out you will need to find a shipping address that matches that geographical location whether it be a friend, family, or even a hotel/random address. This will not matter since they are digital and **no physical card will be shipped.**
+3. Purchasing + Shipping Physical Cards
+	- When checking out you will need to use a shipping address that matches that geographical location. Consider a friend, family, or someone you have arranged to obtain these cards and have a shipping arrangement with. These cards **will be shipped** so the address matters! There are third party shipping sites, but use caution when choosing one and utilizing this type of service.
+4. Purchasing from foreign Geographies
+	- You will be charged **in the local currency of the geo**. Depending on your payment method this could result in additional fees. 
+
+### **Digital Cards**
+You can buy digital cards from any Yoto geo. These digital cards will go into your library just as your main geographical location does. 
+
+### **Physical Cards**
+You can buy physical cards from any Yoto geo. These cards will go into your library just as your main geographical location does. **Proceed with caution as address here does matter!** See below for further details. 
 
 ## General Yoto Questions
 
