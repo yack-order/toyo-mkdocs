@@ -1,7 +1,7 @@
 # Home
 # Welcome to The Optimistic Yack Order
 
-Welcome to The Optimistic Yack Order (TOYO) Resource Library! Here you will find a curated list of Tutorials, Suggested Tools, and other informational material for the Yoto Player family. These materials are all provided for informational purposes only.
+Welcome to The Optimistic Yack Order (TOYO) Resource Library! Here you will find a curated list of Tutorials, Suggested Tools, and other informational material for the Yoto Player family of devices (until we start branching out to other devices). These materials are all provided for informational purposes only.
 
 
 All content, unless otherwise noted, is property of the The Optimistic Yack Order.

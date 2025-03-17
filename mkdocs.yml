@@ -4,7 +4,8 @@ site_url: https://yackorder.org
 docs_dir: 'docs'
 site_dir: 'site'
 not_in_nav: | 
-    /docs/library/cards/
+    /docs/the_archive/card_library/cards/
+    /docs/the_archive/icon_library/cards/
 validation: # This prevents info/warnings from a bunch of card descriptions that point to yoto store urls
         absolute_links: relative_to_docs # this means that all links are relative to the `docs_dir` so they don't need to get the /../../img/file.png correct, just do /img/file.png
         unrecognized_links: ignore 
@@ -13,7 +14,12 @@ extra_css:
 theme: 
     name: readthedocs # alts: material, dracula
     locale: en
-    
+    features:
+        - navigation.instant
+        - navigation.instant.progress
+        - navigation.path
+        - toc.follow
+        - navigation.top
     custom_dir: docs/custom_theme
     extra:
         analytics: 
