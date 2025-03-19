@@ -35,3 +35,7 @@ When it’s done, the arrow next to each track will have become a magnifying gla
 ![uyfm_07.png](/img/uyfm_07.png)
 
 You can then press the little broom icon in the bottom left to empty the list, and you’re free to start all over again!
+
+## Alternative Tools
+
+[EZmp3](https://ezmp3.co/) EzMP3 is the fastest ad-free YouTube to MP3 converter that lets you convert videos up to 12 hours long. You can trim the audio and choose a bitrate from 64kbps to 320kbps.
