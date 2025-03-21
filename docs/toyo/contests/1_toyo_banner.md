@@ -2,24 +2,24 @@
 
 March 4 - 14, 2025
 
-## Mission:
+## Mission
 Create a TOYO welcome image to be displayed on the [#rules](https://discordapp.com/channels/1295352148846055444/1295352386327679058) channel when people are first welcomed into the community as well as Yackorder.org!
 
-## Criteria:
+## Criteria
 * A Yak (shaggy is preferable)
 * TOYO text (abbreviation or full text)
 * Represents this community in its entirety
 * 1920x1080 pixels
 
-## Allowances:
+## Allowances
 * Original artwork encouraged
 * AI accepted (*art may be disqualified if flaws are found due to AI generation components)
 
-## Submissions:
+## Submissions
 * Submit your final image by ticket under [#⁠contact-toyo](https://discordapp.com/channels/1295352148846055444/1297387976266874991) by **March 16, 2025 1:00 AM**
 * Along with the submission, please label as Original artwork, AI assisted, or AI generated
 
-## Voting:
+## Voting
 * All images will be put into a new channel for voting after final submissions are received
 * All entries will be anonymous
 * All entries will be designated as original artwork, AI assisted, or AI generated
@@ -28,7 +28,7 @@ Create a TOYO welcome image to be displayed on the [#rules](https://discordapp.c
 
 **By submitting artwork to this contest, you grant a perpetual use license to this TOYO community, the organizers, and its members.**
 
-## Prize pool:
+## Prize pool
 * 500,000 coins
 * 10 yak points
 * 2500 experience points

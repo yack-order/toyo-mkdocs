@@ -1,6 +1,6 @@
 # Home
 
-![banner_02.png](/img/contests/banner_02.png)
+![TOYO_Banner.png](/img/misc/TOYO_Banner.png)
 
 Welcome to The Optimistic Yack Order (TOYO) Resource Library! Here you will find a curated list of Tutorials, Suggested Tools, and other informational material for the Yoto Player family of devices (until we start branching out to other devices). These materials are all provided for informational purposes only.
 
