@@ -1,6 +1,6 @@
 # 1st TOYO Art Contest!
 
-Calling all TOYO community artists:
+March 4 - 14, 2025
 
 ## Mission:
 Create a TOYO welcome image to be displayed on the [#rules](https://discordapp.com/channels/1295352148846055444/1295352386327679058) channel when people are first welcomed into the community as well as Yackorder.org!
