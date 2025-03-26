@@ -5,12 +5,12 @@ Calling all TOYO community artists:
 ## Mission
 Create matching morning and nighttime routine card covers. 
 
-# Criteria
+## Criteria
 * Cohesive Theme
 * Inclusive (use animals, magical creatures, etc.)
 * 54mm by 85.6mm (Yoto card size)
 
-# Allowances
+## Allowances
 * Original artwork encouraged
 * AI accepted (*art may be disqualified if flaws are found due to AI generation components)
 

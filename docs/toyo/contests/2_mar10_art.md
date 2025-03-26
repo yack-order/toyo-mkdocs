@@ -27,7 +27,7 @@ Create a unique and fun card cover for Mario (March 10th) day!
 
 **By submitting artwork to this contest, you grant a perpetual use license to this TOYO community, the organizers, and its members.**
 
-## Prize pool:
+## Prize pool
 * 150,000 coins
 * 3 yak points
 * 750 experience points
@@ -35,5 +35,14 @@ Create a unique and fun card cover for Mario (March 10th) day!
 
 # Entries
 
-coming soon
+## Entry 1
+by tako
+![mar10_01.png](/img/contests/mar10_01.png)
 
+## Entry 2 (winner)
+by lemurette
+![mar10_02.png](/img/contests/mar10_02.png)
+
+## Entry 3
+by yotoaddict
+![mar10_03.png](/img/contests/mar10_03.png)
