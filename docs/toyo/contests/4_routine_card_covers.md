@@ -26,7 +26,11 @@ Create matching morning and nighttime routine card covers.
 
 ***By submitting artwork to this contest, you grant a perpetual use license to this TOYO community, the organizers, and its members.***
 
+## Prize pool
+* 150,000 coins
+* 3 yak points
+* 750 experience points
+
 # Entries
 
 coming soon
-

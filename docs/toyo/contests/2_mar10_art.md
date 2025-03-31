@@ -32,7 +32,6 @@ Create a unique and fun card cover for Mario (March 10th) day!
 * 3 yak points
 * 750 experience points
 
-
 # Entries
 
 ## Entry 1
