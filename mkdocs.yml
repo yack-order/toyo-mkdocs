@@ -3,9 +3,9 @@ site_description: An loose collective of information about the Yoto Player and o
 site_url: https://yackorder.org
 docs_dir: 'docs'
 site_dir: 'site'
-not_in_nav: | 
-    /docs/the_archive/card_library/cards/
-    /docs/the_archive/icon_library/cards/
+#not_in_nav: | 
+#    /docs/the_archive/card_library/cards/
+#    /docs/the_archive/icon_library/cards/
 validation: # This prevents info/warnings from a bunch of card descriptions that point to yoto store urls
         absolute_links: relative_to_docs # this means that all links are relative to the `docs_dir` so they don't need to get the /../../img/file.png correct, just do /img/file.png
         unrecognized_links: ignore 

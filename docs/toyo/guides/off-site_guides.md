@@ -5,4 +5,6 @@
 -   [Adding USB-C to your Yoto Player](https://maxelman.com/adding-usb-c-to-a-yoto-player/)
 -   [MYO guide for radio stations](https://support.yotoplay.com/en-US/make-a-card-from-radio-stations-that-are-not-in-the-yoto-app-21682)
 -   [A Review of Various PVC Card Printers](https://www.reddit.com/r/NFC/comments/vm75ik/a_review_of_various_pvc_card_printers_with_a/)
+-	[Audacity guide to normalize audio levels](https://forum.audacityteam.org/t/how-to-get-equal-volume-level-across-several-tracks/42828)
+-	[iFixit Yoto Mini SD Card Replacement guide](https://www.ifixit.com/Guide/Yoto+Mini+SD+Card+Replacement/171747)
 

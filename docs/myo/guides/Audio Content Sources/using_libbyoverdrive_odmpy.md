@@ -12,14 +12,14 @@
     1. [**bookmarklet.js**](https://gist.github.com/ping/b58ae66359691db1d08f929a9e57a03d)
     2. [**Mr Coles Bookmarklet Creator**](https://mrcoles.com/bookmarklet/)
 2. Copy/paste the .js into the Bookmarklet Creator
-    ![uslibodm_01.PNG](/img/uslibodm_01.png)
+    ![uslibodm_01.png](/img/uslibodm_01.png)
 3. Give it a Name, and Click on Convert to bookmarklet
-    ![uslibodm_02.PNG](/img/uslibodm_02.png)
+    ![uslibodm_02.png](/img/uslibodm_02.png)
 4. Drag the button into your bookmark bar
-    ![uslibodm_03.PNG](/img/uslibodm_03.png)
+    ![uslibodm_03.png](/img/uslibodm_03.png)
 5. Navigate to your library’s Overdrive Loans page, then click on your new Bookmark button
     - The ODM download button will appear:
-    ![uslibodm_04.PNG](/img/uslibodm_04.png)
+    ![uslibodm_04.png](/img/uslibodm_04.png)
 
 6. Download the ODM file
 

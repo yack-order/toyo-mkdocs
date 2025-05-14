@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://yackorder.org/myo/guides/Getting%20Started%20with%20MYO%20Playlists/playlist_yoto_app/" />
+      <link rel="shortcut icon" href="../../../../img/favicon.ico" />
+    <title>Making a MYO Playlist - Using the Yoto App - The Optimistic Yack Order</title>
+    <link rel="stylesheet" href="../../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../../../../stylesheets/extra.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Making a MYO Playlist - Using the Yoto App";
+        var mkdocs_page_input_path = "myo\\guides\\Getting Started with MYO Playlists\\playlist_yoto_app.md";
+        var mkdocs_page_url = "/myo/guides/Getting%20Started%20with%20MYO%20Playlists/playlist_yoto_app/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script>
+  
+  
+    
+  
+
+  <!-- Umami analytics, https://squidfunk.github.io/mkdocs-material/customization/#overriding-blocks -->
+<script async src="https://umami.michi.fyi/script.js" data-website-id="7768ac58-8a91-473f-bb2f-62fa2e5fd9b3"></script>
+ 
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../../.." class="icon icon-home"> The Optimistic Yack Order
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">About</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../../about/authors/">Authors</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../../about/disclosures/">Disclosures</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../../about/vision/">The Vision</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Myo</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../../../card_xray/">MYO Card X-ray</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../faq_myo/">Frequently Asked Questions - MYO</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../myo_tools/">MYO Tools</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../tips_for_handling_errors_while_uploading_to_a_myo_playlist/">Tips for Handling Errors While Uploading to a MYO Playlist</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" >Guides</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" >Audio Content Sources</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../../Audio%20Content%20Sources/a_free_audio_sources/">Free Audio Sources</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../Audio%20Content%20Sources/aquiring_audio_tools/">Tools to Acquire Audio</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../Audio%20Content%20Sources/using_libby_to_get_mp3/">Libby MP3s</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../Audio%20Content%20Sources/using_libbyoverdrive_odmpy/">Overdrive ODM and odmpy</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../Audio%20Content%20Sources/using_netflix_for_myo/">Netflix Audio for MYO</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../Audio%20Content%20Sources/using_spotify_for_myo/">Spotify for MYO</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../Audio%20Content%20Sources/using_video_download_helper_for_myo/">Video Download Helper for MYO</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../Audio%20Content%20Sources/using_youtube_for_myo/">YouTube for MYO</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >File Conversions</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../../File%20Conversions/convert_audible_audiobooks_to_myo_cards/">Convert Audible Audiobooks to MYO Cards</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../File%20Conversions/converting_mp3_files_to_m4b_and_add_chapters/">Converting MP3 Files to m4b and Add Chapters</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" >Getting Started with MYO Playlists</a>
+    <ul class="current">
+                <li class="toctree-l3"><a class="reference internal" href="../linking_a_playlist_to_card/">Linking a Playlist to a MYO Card</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../making_a_myo_playlist/">Making a MYO Playlist</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../playlist_computer/">Making a MYO Playlist - Using a Computer</a>
+                </li>
+                <li class="toctree-l3 current"><a class="reference internal current" href="#">Making a MYO Playlist - Using the Yoto App</a>
+    <ul class="current">
+    </ul>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Podcasts for MYO</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../../Podcasts%20for%20MYO/adding_podcasts_to_myo/">Adding Podcasts to MYO</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Radio Stations for MYO</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../../Radio%20Stations%20for%20MYO/adding_radio_to_myo/">Adding Radio to MYO</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../Radio%20Stations%20for%20MYO/radio_computer/">Radio Stations Setup - Using a Computer</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../Radio%20Stations%20for%20MYO/radio_yoto_app/">Radio Stations Setup - Using the App</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../Radio%20Stations%20for%20MYO/yoto_radio_stations/">Yoto Radio Stations</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">The archive</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../../the_archive/faq_archive/">Frequently Asked Questions - The Archive</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >(deprecated) archive gen1</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../the_archive/%28deprecated%29%20archive_gen1/">Archiver</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../the_archive/%28deprecated%29%20archive_gen1/diy_mode/">DIY Mode: Use our tools</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../the_archive/%28deprecated%29%20archive_gen1/hard_mode/">Hard Mode: Package it yourself</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../the_archive/%28deprecated%29%20archive_gen1/library_overview/">Library Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../the_archive/%28deprecated%29%20archive_gen1/roadmap/">Tooling Roadmap</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../the_archive/%28deprecated%29%20archive_gen1/story_mode/">Story Mode: Let our team do it (preferred method)</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Guides</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../the_archive/guides/applying_to_the_archive/">Applying To The Archive</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../the_archive/guides/scanning_just_a_few_cards_ios_and_android/">Scanning Just a Few Cards (iOS and Android)</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../the_archive/guides/scanning_lots_of_cards_ios/">Scanning Lots of Cards (iOS)</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../the_archive/guides/tips_for_scanning_myo_cards_with_your_phone/">Tips for scanning MYO cards with your phone</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../the_archive/guides/using_the_card_collector_tool/">Using the Card Collector Tool</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Toyo</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../../toyo/faq_toyo/">Frequently Asked Questions - TOYO</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../../toyo/links/">Linky Love</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../../toyo/rules/">Community Rules</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../../toyo/todo/">Coming Soon</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Contests</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../toyo/contests/">Contests</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../toyo/contests/10_dinosaur_playground_art/">Dinosaur Playground Card Design!</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../toyo/contests/11_fairytale_art/">FairyTale Card Design!</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../toyo/contests/1_toyo_banner/">1st TOYO Art Contest!</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../toyo/contests/2_mar10_art/">It’s a MAR10 Art Contest!</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../toyo/contests/3_toyo_myo/">TOYO MYO Challenge</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../toyo/contests/4_routine_card_covers/">Routine Card Covers Art Contest</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../toyo/contests/5_travel_playlist_art/">Travel Playlist Art Contest!</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../toyo/contests/6_quiet_time_art/">Quiet Time Card Design!</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../toyo/contests/7_may_the_4th/">May the 4th Be With You!</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../toyo/contests/8_princess_art/">Princess Design Cover!</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../toyo/contests/9_train_ride_art/">Train Ride Card Cover!</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Guides</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../toyo/guides/off-site_guides/">Off-Site Guides</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Notes</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../toyo/notes/building_docs/">Building with MkDocs</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../toyo/notes/cards/">Other stuff we know about cards</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../toyo/notes/flyingtoasters_emotes/">How to decipher a @flyingtoasters emote</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../toyo/notes/october_31_2024_letter/">October 31, 2024 Letter</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Staff</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../toyo/staff/staffpages/">Staff Pages</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Tools</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../toyo/tools/">Off-Site Tools</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../toyo/tools/myo_studio/">MYO Studio (Google Chrome Browser Extension)</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Yoto</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../../yoto/faq_yoto/">Frequently Asked Questions - Yoto</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Guides</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../yoto/guides/choosing_a_3rd_party_nfc_card/">Choosing a 3rd Party NFC Card</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../yoto/guides/dumping_the_esp32_firmware_on_a_yoto_mini_v2_2023/">Dumping the ESP32 Firmware on a Yoto Mini v2 (2023)</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../yoto/guides/how_to_find_the_cardid_from_a_store_page/">How to Find the CardID From a Store Page</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../yoto/guides/using_3rd_party_nfc_cards/">Using 3rd Party NFC Cards</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../yoto/guides/yoto_basics/">Yoto Basics</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../..">The Optimistic Yack Order</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Myo</li>
+          <li class="breadcrumb-item">Guides</li>
+          <li class="breadcrumb-item">Getting Started with MYO Playlists</li>
+      <li class="breadcrumb-item active">Making a MYO Playlist - Using the Yoto App</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="making-a-myo-playlist-using-the-yoto-app">Making a MYO Playlist -  Using the Yoto App</h1>
+<p>Using the app is a bit finickier than the computer and is missing several options, so I don’t recommend it. If you’re restricted to mobile, it would be best to still use the in-browser version of My Yoto if possible (you should theoretically be able to do this and follow along with <a href="../playlist_computer/">the computer tutorial</a>, but I still need to test this). But if for some reason you must use the app, or it’s just more comfortable for you, I’ve made a tutorial anyhow.  </p>
+<p>Please note this guide assumes you have already signed up for a Yoto account. </p>
+<p>Please also note you do not yet need to own a Yoto device to be able to sign up and make playlists! I totally recommend signing up before purchasing so you can try out making a playlist to see how you feel about the process/using the app/etc. You can also start making them while your Yoto is in transit to you so you have playlists ready to be listened to when it arrives!  </p>
+<p>We will start by opening our Yoto app, and navigating to the “Playlists” section by using the row of coloured tabs above the card thumbnails.  </p>
+<p>As you can see I’ve already got several playlists here:
+<img alt="mamp_15.png" src="../../../../img/mamp_15.png" />    </p>
+<p>If this is your first playlist, you’ll likely only have the large blue button, which we will press to start making our first playlist, giving us this screen:
+<img alt="mamp_16.png" src="../../../../img/mamp_16.png" />  </p>
+<p>You’ll want to give your playlist a name, as that’s mandatory to continue. I’m going to be making a playlist for Charlie and the Chooclate Factory, so that’s the name I’ve put in for mine:
+<img alt="mamp_17.png" src="../../../../img/mamp_17.png" />  </p>
+<p>If you want to add a description with more information about the audio you’re going to use, then you can do that as well. You can also press the “Random Artwork” button at the top right to generate a random card cover from Yoto’s built-in designs. We’ll discuss the covers a bit more further down. For now you’ll want to press “Save” and move on to the next screen:
+<img alt="mamp_18.png" src="../../../../img/mamp_18.png" />  </p>
+<p>This is where we’ll be adding our audio. For this guide we’re going to be making a playlist of MP3s, so you want to press the big green button. At this point, everyone’s experience will be slightly different depending on what mobile phone/tablet you are using, as you’re opening up the file menu of your phone. I’m using a samsung minitab, which looks like this:
+<img alt="mamp_19.png" src="../../../../img/mamp_19.png" />  </p>
+<p>I’ll then be using the file browser to navigate to where I’ve stored my MP3s:
+<img alt="mamp_20.png" src="../../../../img/mamp_20.png" />  </p>
+<p>In my case I’ve got them all in one folder and it’s the only thing in the folder, so I’ll press the “Select all” button at the top left. Please keep in mind that Yoto will make the playlist using the order the tracks are displayed here, so you’ll want to use whatever sorting options you have to get them in line first (though you can manually sort playlists as well, we’ll cover that too). Once we’ve got our tracks selected, press the “Done” button at the bottom:
+<img alt="mamp_21.png" src="../../../../img/mamp_21.png" />  </p>
+<p>Which will bring us back to the Yoto interface:
+<img alt="mamp_22.png" src="../../../../img/mamp_22.png" />  </p>
+<p>It takes a bit of time to upload files to the app, so you’ll have to give it a couple minutes. When it’s done all the tracks will be green:
+<img alt="mamp_23.png" src="../../../../img/mamp_23.png" />  </p>
+<p>We can then press the “Done” button here as well.</p>
+<p>Now, the Yoto app is a bit quirky in that it’s going to actually exit the editing interface now even though we’re not done yet.
+<img alt="mamp_24.png" src="../../../../img/mamp_24.png" />  </p>
+<p>So we need to press that pencil button at the top right to keep editing.
+<img alt="mamp_25.png" src="../../../../img/mamp_25.png" />  </p>
+<p>This screen has a lot of different options, so let me walk you through them:
+- Top Left, Randomize Artwork: generates a random card art from Yoto’s built in designs.
+- Top Right, Add Your Own Artwork: This is where we’ll upload a custom card art from an image we have saved to our phone.
+- Left, Three blue lines beside each track: Hold down on these and drag to re-order tracks.
+- Left, Rainbow plus sign beside each track: Add a custom icon to each track
+- Right, Three blue dots beside each track: This opens up the track options menu, which is additional settings that are per track. This is not the same menu as you can access on the in-browser My Yoto space. More on that later. This is how you delete a track from a playlist, as well as re-name it.</p>
+<p>If you scroll all the way to the bottom of your playlist you’ll also see “More options on the website”:
+<img alt="mamp_26.png" src="../../../../img/mamp_26.png" />  </p>
+<p>which will open the in-browser My Yoto space where if you scroll to the bottom of your playlist there you can access the Playlist Options mentioned in the computer tutorial. We’ll cover these at the bottom of this tutorial.
+<img alt="mamp_27.png" src="../../../../img/mamp_27.png" />  </p>
+<p>I’m not gonna lie, the app is a little bit of a mess in this regard.  </p>
+<p>Anyway, for now we want to add icons to our tracks! So we’ll press the rainbow-coloured plus icon next to our first track name to open up the icons menu:
+<img alt="mamp_28.png" src="../../../../img/mamp_28.png" />  </p>
+<p>If you have any custom icons uploaded, those will show up first. Otherwise Yoto has many icons already available to choose from.</p>
+<p>I’m going to select this one of a chocolate bar and what may be a wedge of cheese but works well enough here as a golden ticket haha. Once I select it I am also going to press “apply to all tracks” as I don’t want to pick an icon for each individual track, but you can choose either one!
+<img alt="mamp_29.png" src="../../../../img/mamp_29.png" />  </p>
+<p>That will make every track icon the same and save me from having to apply it to each of my tracks:
+<img alt="mamp_30.png" src="../../../../img/mamp_30.png" />    </p>
+<p>If Yoto doesn’t have an icon available that suits the playlist you’re making, such as a character playlist (Bluey, Peppa, etc), then you’ll want to head over to <a href="https://www.yotoicons.com/">Yoto Icons</a> to download some more options to upload as custom icons. Mobile phones tend to save transparent images with a white background, however, so you may need to add your custom icons using the in-browser My Yoto space on your computer. But you can certainly give it a try on your phone and see how it goes for you. In that case from the icons menu you need to press the blue “Add an Icon” in the top right:
+<img alt="mamp_31.png" src="../../../../img/mamp_31.png" />    </p>
+<p>And it will give you the choice to select an image from your camera roll or your file storage.</p>
+<p>Now that we’ve got our icons, let’s cover the additional menus. I'll start with the in-app track settings menu, the three dots to the right of each track:
+<img alt="mamp_32.png" src="../../../../img/mamp_32.png" />  </p>
+<p>As you can see we only have three options here, and one of them is redundant.
+- Rename Audio - change the track name. You can also do this by just tapping the track name field and beginning to type.
+- Change Pixel Art - change the track icon. This can also be done by just pressing the icon already on the track.
+- Remove from this playlist - this deletes the track. I’m not sure why it specifies remove from this playlist–it's not storing it anywhere else, it just deletes the track.
+-  Cancel - this just closes the menu</p>
+<p>At this point there's nothing else you can do in the app itself so once you're happy with all your track info, you can save the playlist changes! At this point you have two options: you can move right on to linking your playlist to a card, or you can explore the additional options available to you in the in-browser My Yoto space.  </p>
+<p>If you want to link your card, you can skip ahead to <a href="../linking_a_playlist_to_card/">linking a playlist to a myo card</a>. Otherwise, this is where we really get into the limitations of the app and why using the in-browser space is unfortunately superior.  </p>
+<p>To open the in-browser version of your playlist, scroll down to the bottom of the playlist while you’re still in the editing screen, and select “More options on the website”:
+<img alt="mamp_33.png" src="../../../../img/mamp_33.png" />  </p>
+<p>As mentioned earlier, this is where you’ll be able to access this additional menu not present in the app:
+<img alt="mamp_34.png" src="../../../../img/mamp_34.png" />  </p>
+<p>Always play from start: By default, Yoto cards resume playing from wherever they were last stopped when inserted into a Yoto player, so that if your child is listening to a story it will continue where they left it. Selecting this option will disable that, so when the card is inserted it always plays from the very beginning no matter where it left off.</p>
+<p>Shuffle tracks each time played: It’s Shuffle, just like in your music player/streaming of choice! When inserted, the card will start at a random track, and it will also pick a random track when skipping between songs. This also applies to turning the knob to seek certain tracks–they will appear in a random order. Excellent for music cards, but you definitely need to make sure all the icons are unique to avoid frustration!</p>
+<p>Hide track numbers: When turning the knob on the Yoto to seek tracks, it displays the number of the track overtop of the picture icon, so you can see how far ahead you’re seeking. It is useful to disable this for very young children, so they can view the icon more clearly, since the numbers will not yet be useful to them.  </p>
+<p>However, as well as this menu Yoto makes obvious to you, there’s also an additional menu not present in the app that can be accessed here, which is the non-app version of the track settings menu, which can be accessed with the three dots to the right of each track:
+<img alt="mamp_35.png" src="../../../../img/mamp_35.png" />  </p>
+<p>These settings are per individual track. By default, every track will be set to “continue to next track”, which is normal play. However if you like, you can change any given track to need a button press interaction, or to loop by selecting the Repeat track option, which would be useful if you are making cards of background noise or music, such as for sleeping. Delete track is also still here, now more clearly named.  </p>
+<p>Stuff you change in either of these menus will still apply to the in-app version of your playlist. Once you’ve made any changes you like with these menus, we have truly explored all the MYO playlist options and can move on to linking the card, which is the next guide just below this one.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../playlist_computer/" class="btn btn-neutral float-left" title="Making a MYO Playlist - Using a Computer"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../Podcasts%20for%20MYO/adding_podcasts_to_myo/" class="btn btn-neutral float-right" title="Adding Podcasts to MYO">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../playlist_computer/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../../Podcasts%20for%20MYO/adding_podcasts_to_myo/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../../..";</script>
+    <script src="../../../../js/theme_extra.js"></script>
+    <script src="../../../../js/theme.js"></script>
+      <script src="../../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

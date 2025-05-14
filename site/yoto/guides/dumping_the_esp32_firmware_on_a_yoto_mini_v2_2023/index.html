@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://yackorder.org/yoto/guides/dumping_the_esp32_firmware_on_a_yoto_mini_v2_2023/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>Dumping the ESP32 Firmware on a Yoto Mini v2 (2023) - The Optimistic Yack Order</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../../../stylesheets/extra.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Dumping the ESP32 Firmware on a Yoto Mini v2 (2023)";
+        var mkdocs_page_input_path = "yoto\\guides\\dumping_the_esp32_firmware_on_a_yoto_mini_v2_2023.md";
+        var mkdocs_page_url = "/yoto/guides/dumping_the_esp32_firmware_on_a_yoto_mini_v2_2023/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script>
+  
+  
+    
+  
+
+  <!-- Umami analytics, https://squidfunk.github.io/mkdocs-material/customization/#overriding-blocks -->
+<script async src="https://umami.michi.fyi/script.js" data-website-id="7768ac58-8a91-473f-bb2f-62fa2e5fd9b3"></script>
+ 
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> The Optimistic Yack Order
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">About</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../about/authors/">Authors</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../about/disclosures/">Disclosures</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../about/vision/">The Vision</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Myo</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../myo/card_xray/">MYO Card X-ray</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../myo/faq_myo/">Frequently Asked Questions - MYO</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../myo/myo_tools/">MYO Tools</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../myo/tips_for_handling_errors_while_uploading_to_a_myo_playlist/">Tips for Handling Errors While Uploading to a MYO Playlist</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Guides</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" >Audio Content Sources</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../../../myo/guides/Audio%20Content%20Sources/a_free_audio_sources/">Free Audio Sources</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../../myo/guides/Audio%20Content%20Sources/aquiring_audio_tools/">Tools to Acquire Audio</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../../myo/guides/Audio%20Content%20Sources/using_libby_to_get_mp3/">Libby MP3s</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../../myo/guides/Audio%20Content%20Sources/using_libbyoverdrive_odmpy/">Overdrive ODM and odmpy</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../../myo/guides/Audio%20Content%20Sources/using_netflix_for_myo/">Netflix Audio for MYO</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../../myo/guides/Audio%20Content%20Sources/using_spotify_for_myo/">Spotify for MYO</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../../myo/guides/Audio%20Content%20Sources/using_video_download_helper_for_myo/">Video Download Helper for MYO</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../../myo/guides/Audio%20Content%20Sources/using_youtube_for_myo/">YouTube for MYO</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >File Conversions</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../../../myo/guides/File%20Conversions/convert_audible_audiobooks_to_myo_cards/">Convert Audible Audiobooks to MYO Cards</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../../myo/guides/File%20Conversions/converting_mp3_files_to_m4b_and_add_chapters/">Converting MP3 Files to m4b and Add Chapters</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Getting Started with MYO Playlists</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../../../myo/guides/Getting%20Started%20with%20MYO%20Playlists/linking_a_playlist_to_card/">Linking a Playlist to a MYO Card</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../../myo/guides/Getting%20Started%20with%20MYO%20Playlists/making_a_myo_playlist/">Making a MYO Playlist</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../../myo/guides/Getting%20Started%20with%20MYO%20Playlists/playlist_computer/">Making a MYO Playlist - Using a Computer</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../../myo/guides/Getting%20Started%20with%20MYO%20Playlists/playlist_yoto_app/">Making a MYO Playlist - Using the Yoto App</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Podcasts for MYO</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../../../myo/guides/Podcasts%20for%20MYO/adding_podcasts_to_myo/">Adding Podcasts to MYO</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Radio Stations for MYO</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../../../myo/guides/Radio%20Stations%20for%20MYO/adding_radio_to_myo/">Adding Radio to MYO</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../../myo/guides/Radio%20Stations%20for%20MYO/radio_computer/">Radio Stations Setup - Using a Computer</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../../myo/guides/Radio%20Stations%20for%20MYO/radio_yoto_app/">Radio Stations Setup - Using the App</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../../myo/guides/Radio%20Stations%20for%20MYO/yoto_radio_stations/">Yoto Radio Stations</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">The archive</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../the_archive/faq_archive/">Frequently Asked Questions - The Archive</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >(deprecated) archive gen1</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../the_archive/%28deprecated%29%20archive_gen1/">Archiver</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../the_archive/%28deprecated%29%20archive_gen1/diy_mode/">DIY Mode: Use our tools</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../the_archive/%28deprecated%29%20archive_gen1/hard_mode/">Hard Mode: Package it yourself</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../the_archive/%28deprecated%29%20archive_gen1/library_overview/">Library Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../the_archive/%28deprecated%29%20archive_gen1/roadmap/">Tooling Roadmap</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../the_archive/%28deprecated%29%20archive_gen1/story_mode/">Story Mode: Let our team do it (preferred method)</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Guides</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../the_archive/guides/applying_to_the_archive/">Applying To The Archive</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../the_archive/guides/scanning_just_a_few_cards_ios_and_android/">Scanning Just a Few Cards (iOS and Android)</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../the_archive/guides/scanning_lots_of_cards_ios/">Scanning Lots of Cards (iOS)</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../the_archive/guides/tips_for_scanning_myo_cards_with_your_phone/">Tips for scanning MYO cards with your phone</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../the_archive/guides/using_the_card_collector_tool/">Using the Card Collector Tool</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Toyo</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../toyo/faq_toyo/">Frequently Asked Questions - TOYO</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../toyo/links/">Linky Love</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../toyo/rules/">Community Rules</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../toyo/todo/">Coming Soon</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Contests</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../toyo/contests/">Contests</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../toyo/contests/10_dinosaur_playground_art/">Dinosaur Playground Card Design!</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../toyo/contests/11_fairytale_art/">FairyTale Card Design!</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../toyo/contests/1_toyo_banner/">1st TOYO Art Contest!</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../toyo/contests/2_mar10_art/">It’s a MAR10 Art Contest!</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../toyo/contests/3_toyo_myo/">TOYO MYO Challenge</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../toyo/contests/4_routine_card_covers/">Routine Card Covers Art Contest</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../toyo/contests/5_travel_playlist_art/">Travel Playlist Art Contest!</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../toyo/contests/6_quiet_time_art/">Quiet Time Card Design!</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../toyo/contests/7_may_the_4th/">May the 4th Be With You!</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../toyo/contests/8_princess_art/">Princess Design Cover!</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../toyo/contests/9_train_ride_art/">Train Ride Card Cover!</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Guides</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../toyo/guides/off-site_guides/">Off-Site Guides</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Notes</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../toyo/notes/building_docs/">Building with MkDocs</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../toyo/notes/cards/">Other stuff we know about cards</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../toyo/notes/flyingtoasters_emotes/">How to decipher a @flyingtoasters emote</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../toyo/notes/october_31_2024_letter/">October 31, 2024 Letter</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Staff</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../toyo/staff/staffpages/">[Protected] Staff Pages</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Tools</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../toyo/tools/">Off-Site Tools</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../toyo/tools/myo_studio/">MYO Studio (Google Chrome Browser Extension)</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Yoto</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../../faq_yoto/">Frequently Asked Questions - Yoto</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" >Guides</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="../choosing_a_3rd_party_nfc_card/">Choosing a 3rd Party NFC Card</a>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" href="#">Dumping the ESP32 Firmware on a Yoto Mini v2 (2023)</a>
+    <ul class="current">
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../how_to_find_the_cardid_from_a_store_page/">How to Find the CardID From a Store Page</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../using_3rd_party_nfc_cards/">Using 3rd Party NFC Cards</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../yoto_basics/">Yoto Basics</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">The Optimistic Yack Order</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Yoto</li>
+          <li class="breadcrumb-item">Guides</li>
+      <li class="breadcrumb-item active">Dumping the ESP32 Firmware on a Yoto Mini v2 (2023)</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="dumping-the-esp32-firmware-on-a-yoto-mini-v2-2023">Dumping the ESP32 Firmware on a Yoto Mini v2 (2023)</h1>
+<ol>
+<li>Follow the <a href="https://us.yotoplay.com/mini-battery-replacement-kit-how-to-guide">Battery Replacement guide</a> from Yoto (steps 1-8)</li>
+<li>Pop off the two control knobs and remove the two 10mm nuts<br />
+<img alt="dtefoaym2_01.jpg" src="../../../img/dtefoaym2_01.jpg" /></li>
+<li>Remove the 3 screws holding the board to the case<br />
+<img alt="dtefoaym2.jpg" src="../../../img/dtefoaym2_02.jpg" /></li>
+<li>
+<p>Optional - After removing, flip the board and remove the headphone port cover (2 screws) 
+<img alt="dtefoaym2_03.jpg" src="../../../img/dtefoaym2_03.jpg" /></p>
+</li>
+<li>
+<p>Solder a 2mm header/connector (e.g. JST) to the pins and connect them to your serial device as follows<br />
+<img alt="dtefoaym2_04.jpg" src="../../../img/dtefoaym2_04.jpg" />
+<img alt="dtefoaym2_05.jpg" src="../../../img/dtefoaym2_05.jpg" /> </p>
+</li>
+</ol>
+<p>If using a raspberry pi, the following mapping should be used</p>
+<table>
+<thead>
+<tr>
+<th>Header R-&gt;L</th>
+<th>ESP32 - Pin</th>
+<th>ESP32 - Label</th>
+<th>Rasp Pi - Pin</th>
+<th>Rasp Pi - Label</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pin 1</td>
+<td>Any GND (1, 38, etc)</td>
+<td>GND</td>
+<td>Any GND (6, 9, etc)</td>
+<td>GND</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td>2</td>
+<td>3V3</td>
+<td>1</td>
+<td>3V3</td>
+</tr>
+<tr>
+<td>Pin 4</td>
+<td>3</td>
+<td>EN</td>
+<td>1 via 10k resistor</td>
+<td>3V3 + 10k ohm</td>
+</tr>
+<tr>
+<td>Pin 5</td>
+<td>25</td>
+<td>IO0 (zero)</td>
+<td>GND via button</td>
+<td>na</td>
+</tr>
+<tr>
+<td>Pin 2</td>
+<td>34</td>
+<td>RXD0</td>
+<td>8</td>
+<td>TXD0</td>
+</tr>
+<tr>
+<td>Pin 3</td>
+<td>35</td>
+<td>TXD0</td>
+<td>10</td>
+<td>RXD0</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Enable UART (just hardware, not console)</li>
+<li>Install ESPTool</li>
+<li>Run ‘esptool.py -p /dev/ttyS0 read_flash 0 ALL yoto_mini_v2.bin’</li>
+<li>When “Failed to get PID…” appears do the following<ul>
+<li>Press and hold Boot/Flash button</li>
+<li>Press and release Reset button</li>
+<li>Release Boot/Flash</li>
+</ul>
+</li>
+<li>
+<p>Flash should start dumping (takes 10-15 mins)</p>
+</li>
+<li>
+<p>Once you have the bin file, clone/install <a href="https://github.com/tenable/esp32_image_parser">esp32_image_parser</a></p>
+</li>
+<li>
+<p>Apply the following fixes (or use my forked version - aaronr8684/esp32_image_parser/tree/fixes_3_13_15)</p>
+<ul>
+<li><a href="https://github.com/tenable/esp32_image_parser/pull/3/files">https://github.com/tenable/esp32_image_parser/pull/3/files</a></li>
+<li><a href="https://github.com/tenable/esp32_image_parser/pull/10/files">https://github.com/tenable/esp32_image_parser/pull/10/files</a></li>
+<li><a href="https://github.com/tenable/esp32_image_parser/pull/13/files">https://github.com/tenable/esp32_image_parser/pull/13/files</a></li>
+<li><a href="https://github.com/tenable/esp32_image_parser/pull/15/files">https://github.com/tenable/esp32_image_parser/pull/15/files</a></li>
+</ul>
+</li>
+<li>
+<p>Grab the partition table via </p>
+</li>
+</ul>
+<pre><code>python esp32_image_parser.py show_partitions ../../yoto_mini_v2.bin
+</code></pre>
+<ol>
+<li>Get the ELF files via</li>
+</ol>
+<pre><code>python esp32_image_parser.py create_elf ../../yoto_mini_v2.bin -partition ota_0 -output yoto_ota_0.elf
+</code></pre>
+<ol>
+<li>Run again for ota_1</li>
+<li>Use a decompiler to read the ELF files (like Ghidra or IDA Pro)</li>
+</ol>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../choosing_a_3rd_party_nfc_card/" class="btn btn-neutral float-left" title="Choosing a 3rd Party NFC Card"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../how_to_find_the_cardid_from_a_store_page/" class="btn btn-neutral float-right" title="How to Find the CardID From a Store Page">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../choosing_a_3rd_party_nfc_card/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../how_to_find_the_cardid_from_a_store_page/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
