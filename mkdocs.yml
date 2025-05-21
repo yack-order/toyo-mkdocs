@@ -73,3 +73,5 @@ plugins:
 
 
 #notes - https://github.com/mkdocs/catalog?tab=readme-ov-file
+# pip install mkdocs mkdocs-material mkdocs-material-extensions mkdocs-git-revision-date-localized-plugin mkdocs-rss-plugin mkdocs-lightgallery-plugin mkdocs-publisher-plugin mkdocs-encryptcontent-plugin
+# mkdocs serve
