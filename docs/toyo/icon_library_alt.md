@@ -1,3 +1,0 @@
-# Disorganized Icon Library
-
-![01.png](/img/icons/01.png) ![02.png](/img/icons/02.png) ![03.png](/img/icons/03.png) ![04.png](/img/icons/04.png) ![05.png](/img/icons/05.png) ![06.png](/img/icons/06.png) ![07.png](/img/icons/07.png) ![08.png](/img/icons/08.png) ![09.png](/img/icons/09.png) ![10.png](/img/icons/10.png) ![11.png](/img/icons/11.png) ![12.png](/img/icons/12.png) ![13.png](/img/icons/13.png) ![14.png](/img/icons/14.png) ![15.png](/img/icons/15.png) ![16.png](/img/icons/16.png) 
