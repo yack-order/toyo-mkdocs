@@ -70,6 +70,10 @@ plugins:
         #search_index: 'dynamically'
         #webcrypto: true
         esm: true
+        patterns:
+            - pattern: 'toyo/staff/**'
+              password_names:
+                  - secret
 
 
 #notes - https://github.com/mkdocs/catalog?tab=readme-ov-file
