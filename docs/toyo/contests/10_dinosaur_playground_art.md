@@ -42,7 +42,7 @@ by BeeaPanda
 ![dino_02.jpg](/img/contests/dino_02.jpg)
 
 ## Entry 3
-by TryWait
+by TryWait (winner)
 ![dino_03.png](/img/contests/dino_03.png)
 
 ## Entry 4
