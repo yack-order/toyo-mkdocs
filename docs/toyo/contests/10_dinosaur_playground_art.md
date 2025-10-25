@@ -19,7 +19,7 @@ Design a card cover featuring dinosaurs in a play-like/playground fashion!
 * Along with the submission, please label as Original artwork, AI assisted, or AI generated
 
 ## Voting
-* All images will be put into [#general] (https://discord.com/channels/1295352148846055444/1295352148846055447)
+* All images will be put into [#general](https://discord.com/channels/1295352148846055444/1295352148846055447)
 * All entries will be anonymous
 * All entries will be designated as original artwork, AI assisted, or AI generated
 * The community will have 24 hours to vote on their favorite piece using the poll
