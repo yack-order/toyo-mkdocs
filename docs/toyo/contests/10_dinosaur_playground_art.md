@@ -33,5 +33,6 @@ Design a card cover featuring dinosaurs in a play-like/playground fashion!
 * 750 experience points
 
 # Entries
-
-coming soon...
+## Entry 1
+by yotoaddict
+![dino_01.png](/img/contests/dino_01.png)
