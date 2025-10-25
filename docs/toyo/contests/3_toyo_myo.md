@@ -29,5 +29,12 @@ image by *thatmatt*
 ![TOYOcardback.png](/img/misc/TOYOcardback.png)
 
 # Entries
-
-coming soon
+## Entry 1
+by TryWait
+![toyo_myo_01.png](/img/contests/toyo_myo_01.png)
+## Entry 2
+by TryWait
+![toyo_myo_02.png](/img/contests/toyo_myo_02.png)
+## Entry 3
+by TryWait
+![toyo_myo_03.png](/img/contests/toyo_myo_03.png)
