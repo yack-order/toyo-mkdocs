@@ -37,6 +37,14 @@ Design a card cover featuring dinosaurs in a play-like/playground fashion!
 by yotoaddict
 ![dino_01.png](/img/contests/dino_01.png)
 
-## Entry 1
+## Entry 2
 by BeeaPanda
-![dino_02.png](/img/contests/dino_02.png)
+![dino_02.jpg](/img/contests/dino_02.jpg)
+
+## Entry 3
+by TryWait
+![dino_03.png](/img/contests/dino_03.png)
+
+## Entry 4
+by BeeaPanda
+![dino_04.jpg](/img/contests/dino_04.jpg)
