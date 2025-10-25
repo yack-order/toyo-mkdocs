@@ -36,3 +36,7 @@ Design a train-themed card cover!
 ## Entry 1
 by BeeaPanda
 ![train_01.jpg](/img/contests/train_01.jpg)
+
+## Entry 2
+by TryWait (winner)
+![train_02.png](/img/contests/train_02.png)
