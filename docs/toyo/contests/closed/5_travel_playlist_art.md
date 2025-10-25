@@ -32,5 +32,6 @@ Create a unique and fun card cover for a travel playlist!
 * 750 experience points
 
 # Entries
-
-coming soon
+## Entry 1
+by TryWait
+![travel_01.png](/img/contests/travel_01.png)
