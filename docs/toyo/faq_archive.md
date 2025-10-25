@@ -8,9 +8,9 @@
 2.  Is this legal?
 	- We are not authorized to give legal advice.
 3.  When will the Archive be available?
-	- The Archive is currently [accepting submission of content](/the_archive/guides/using_the_card_collector_tool.md) to backup as well as [applications to access]/the_archive/guides/applying_to_the_archive.md) the backups.
+	- The Archive is currently [accepting submission of content](/guides/using_the_card_collector_tool.md) to backup as well as [applications to access](/guides/applying_to_the_archive.md) the backups.
 4.  How can I access the Archive?
-	- Please see  [Applying to the Archive](/the_archive/guides/applying_to_the_archive.md) for instructions.
+	- Please see  [Applying to the Archive](/guides/applying_to_the_archive.md) for instructions.
 5.  What can be found in the archive?
 	- The Archive contains only backups of Official Yoto Cards, which is complete with chapterized audio, all icons, and cover art. To view the full content of the Archive, see the Index.
 6.  How come I can only archive Official Yoto Content?
