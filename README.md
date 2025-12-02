@@ -1,3 +1,4 @@
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F315ODO5)
 Docs:
 - Write new files and put them in the `/docs` folder, preferably in some sub folder.
 - file a PR to merge into the `main` branch
